@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(77, 77, 77);
+}
+.left_column
+{
+    box-shadow: 6px 6px 15px black;
+    background-color: gray;
+    position: absolute;
+    left: -2%;
+    border-radius: 10px;
+    width: 12%;
+    height: 88%;
+}
+
+.right_column
+{
+    box-shadow: 6px 6px 15px black;
+    background-color: gray;
+    position: absolute;
+    float: right;
+    left: 103%;
+    top: 0%;
+    border-radius: 10px;
+    width: 16%;
+    height: 78%;
+    z-index: 1;
+}
+.mari
+{
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    height: 65%;
+}
+
+.arrow {background-image: url("resources/arrow.png");}
+.main {background-image: url("resources/main.png");}
+.oeil {background-image: url("resources/oeil.png");}
+.chat_icon {background-image: url("resources/chat-icon.png");}
+.outil {background-image: url("resources/outil.png");}
+.book {background-image: url("resources/book.png");}
+.towel {background-image: url("resources/towel.png");}
+.brick {background-image: url("resources/brick.jpg");}
+.imagesl
+{
+    /* background-color: yellow; */
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 20%;
+    background-size: 100%;
+    position: relative;
+    float: left;
+}
+
+.cluster_pic
+{
+    box-shadow: 6px 6px 15px black;
+    background-color:gray;
+    position: relative;
+    border-radius: 10px;
+    left: 12%;
+    height: 110%;
+    width: 76%;
+}
+.cluster_pic img
+{
+    margin: 1% 1%;
+    /* display: block; */
+    text-align: center;
+    width: 98%;
+    height: 15%;
+}
+.doft 
+{
+    box-shadow: 6px 6px 15px black;
+    background-color: rgb(143, 143, 143);
+    position: relative;
+    border-radius: 10px;
+    margin: 1.5% 0;
+    top: 5%;
+    height: 20%;
+    width: 80%;
+    left: 10%;
+}
+
+.sized
+{
+    position: relative;
+    left: 1%;
+    width: 32vw;
+}
+
+.close
+{
+    position: absolute;
+    float: left;
+    left: 98%;
+    top: 88%;
+    height: 50%;
+    width: 50%;
+}
+.search
+{
+    position: absolute;
+    left: 84%;
+    top: 43%;
+}
+.reload
+{
+    position: relative;
+    float: right;
+    right: -4%;
+}
+
+.green
+{
+    background-image: url("resources/green.jpg");
+    background-size: 32vw;
+    position: relative;
+    top: -6%;
+    left: -10%;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    width:60%;
+    height: 17%;
+}
